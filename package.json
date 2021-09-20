@@ -1,11 +1,11 @@
 {
   "name": "md5-web",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:coffeekitkat/md5-web.git",
   "author": "coffeekitkat <coffeekitkat39@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "parcel build ./src/index.html",
     "dev": "parcel serve ./src/index.html -p 8080 --no-cache"
   },
   "devDependencies": {
