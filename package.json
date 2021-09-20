@@ -9,8 +9,6 @@
     "dev": "parcel serve ./src/index.html -p 8080 --no-cache"
   },
   "devDependencies": {
-    "@parcel/babel-plugin-transform-runtime": "^2.0.0-nightly.1823",
-    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
     "@parcel/transformer-vue": "2.0.0-rc.0",
     "@vue/compiler-sfc": "^3.2.12",
     "autoprefixer": "^10.3.4",
