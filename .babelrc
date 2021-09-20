@@ -1,8 +1,4 @@
 {
-    // "presets": ["@babel/env"],
-    "env": {
-        "test": {
-            "presets": [["@babel/env"]]
-        }
-    }
-}
+    "presets": ["@parcel/babel-preset-env"],
+    "plugins": ["@parcel/babel-plugin-transform-runtime"]
+  }
