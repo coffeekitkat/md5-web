@@ -6,14 +6,21 @@
   "author": "coffeekitkat <coffeekitkat39@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html -p 8080"
+    "dev": "parcel serve ./src/index.html -p 8080 --no-cache"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-jest": "^27.2.1",
-    "crypto-js": "^4.1.1",
-    "jest": "^27.2.1",
-    "parcel-bundler": "^1.12.5",
+    "@parcel/babel-plugin-transform-runtime": "^2.0.0-nightly.1823",
+    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
+    "@parcel/transformer-vue": "2.0.0-rc.0",
+    "@vue/compiler-sfc": "^3.2.12",
+    "autoprefixer": "^10.3.4",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
     "regenerator-runtime": "^0.13.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "tailwindcss": "^2.2.15",
+    "vue": "^3.2.12"
   }
 }
